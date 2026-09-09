@@ -8,7 +8,7 @@ export default function Vagas({ oferecidas, ocupadas }: VagasProps) {
         <div>
             <span>Oferecidas: {oferecidas}</span>
             <span>Ocupadas: {ocupadas}</span>
-            <span>({percentual}%)</span>
+            <span>({percentual.toFixed(2)}%)</span>
             <progress max={100} value={percentual} ></progress>
         </div>
     )

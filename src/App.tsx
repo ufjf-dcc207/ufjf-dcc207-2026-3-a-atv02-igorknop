@@ -4,9 +4,9 @@ function App() {
   return (
     <>
       <h1>Hello world!</h1>
-      <Disciplina codigo="DCC202" nome="Lab Web I"/>
-      <Disciplina codigo="DCC206" nome="Lab Web II"/>
-      <Disciplina codigo="DCC207" nome="Lab Front End" />
+      <Disciplina codigo="DCC202" nome="Lab Web I" oferecidas={50} ocupadas={30}/>
+      <Disciplina codigo="DCC206" nome="Lab Web II" oferecidas={60} ocupadas={40}/>
+      <Disciplina codigo="DCC207" nome="Lab Front End"  oferecidas={80} ocupadas={50}/>
       <div>
         <code>Teste!</code>
       </div>
