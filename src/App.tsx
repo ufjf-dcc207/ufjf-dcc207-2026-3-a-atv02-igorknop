@@ -7,6 +7,9 @@ function App() {
       <Disciplina />
       <Disciplina />
       <Disciplina />
+      <div>
+        <code>Teste!</code>
+      </div>
     </>
   )
 

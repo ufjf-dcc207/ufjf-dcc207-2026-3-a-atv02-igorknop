@@ -1,6 +1,8 @@
-div > code {
-    color: red;
-}
-div > strong {
-    color: green;
+.disciplina {
+    &>code {
+        color: red;
+    }
+    &>strong {
+        color: green;
+    }
 }
