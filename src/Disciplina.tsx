@@ -6,9 +6,7 @@ type DisciplinaProps = {
 }
 
 
-export default function Disciplina(props: DisciplinaProps) {
-    const codigo = props.codigo;
-    const nome = props.nome;
+export default function Disciplina({ codigo, nome }: DisciplinaProps) {
     console.log(`Olá Disciplina: ${codigo} ${nome}`);
     return (
         <div className="disciplina">
