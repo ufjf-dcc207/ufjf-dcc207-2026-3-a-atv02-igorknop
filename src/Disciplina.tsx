@@ -1,4 +1,5 @@
 import "./Disciplina.css"
+import Vagas from "./Vagas";
 
 type DisciplinaProps = {
     codigo: string;
@@ -12,6 +13,7 @@ export default function Disciplina({ codigo, nome }: DisciplinaProps) {
         <div className="disciplina">
             <code>{codigo}</code>
             <strong>{nome}</strong>
+            <Vagas oferecidas={40} ocupadas={20} />
         </div>
     )
 }
