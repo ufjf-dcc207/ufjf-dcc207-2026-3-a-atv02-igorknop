@@ -1,0 +1,6 @@
+div > code {
+    color: red;
+}
+div > strong {
+    color: green;
+}

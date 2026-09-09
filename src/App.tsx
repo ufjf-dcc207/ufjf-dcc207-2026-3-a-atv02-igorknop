@@ -1,4 +1,4 @@
-import Disciplina from "./Disciplina"
+import Disciplina from "./Disciplina.tsx"
 
 function App() {
   return (
