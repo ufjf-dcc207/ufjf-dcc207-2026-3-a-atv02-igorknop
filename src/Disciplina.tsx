@@ -1,10 +1,12 @@
 import "./Disciplina.css"
+const codigo = "DCC207";
+const nome = "Laboratório Front End";
 export default function Disciplina() {
-    console.log("Olá Disciplina!");
+    console.log(`Olá Disciplina: ${codigo} ${nome}`);
     return (
         <div className="disciplina">
-            <code>DCC207</code>
-            <strong>Laboratório Front End</strong>
+            <code>{codigo}</code>
+            <strong>{nome}</strong>
         </div>
     )
 }
