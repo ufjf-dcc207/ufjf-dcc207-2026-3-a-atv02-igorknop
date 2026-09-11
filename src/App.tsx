@@ -1,4 +1,15 @@
 import Disciplina from "./Disciplina.tsx"
+import type { Pokemon } from "./types.ts"
+
+const p1: Pokemon = {
+  name: "Pokochó",
+  hp: 100,
+  speed: 50,
+  cp: 20,
+  sp: 50,
+  type: ["planta"]
+} ;
+
 
 function App() {
   return (
