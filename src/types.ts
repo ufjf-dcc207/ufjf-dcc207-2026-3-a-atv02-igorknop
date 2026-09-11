@@ -5,5 +5,5 @@ export type Pokemon = {
     speed: number;
     cp: number;
     sp: number;
-    type: Array<PokemonType>;
+    type: PokemonType | [PokemonType, PokemonType];
 };
