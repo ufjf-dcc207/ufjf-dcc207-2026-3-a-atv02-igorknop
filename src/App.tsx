@@ -1,4 +1,5 @@
 import Disciplina from "./Disciplina.tsx"
+import Incapacitado from "./Incapacitado.tsx";
 import Pokemon from "./Pokemon.tsx";
 import type { Pokemon as TPokemon } from "./types.ts"
 
@@ -25,7 +26,9 @@ function App() {
   return (
     <>
 
-      <Pokemon pokemon={p1}/>
+      <Incapacitado valor={false}/>
+
+      {/* <Pokemon pokemon={p1}/>
       <Pokemon pokemon={p2}/>
 
       <h1>Hello world!</h1>
@@ -34,7 +37,7 @@ function App() {
       <Disciplina codigo="DCC207" nome="Lab Front End"  oferecidas={80} ocupadas={50}/>
       <div>
         <code>Teste!</code>
-      </div>
+      </div> */}
 
     </>
   )
