@@ -2,11 +2,16 @@ type IncapacitadoProps = {
     valor: boolean;
 }
 export default function Incapacitado({ valor }: IncapacitadoProps) {
-
+    let status: "Incapacitado"|"Ativo";
     if (valor) {
-        return <span>Incapacitado</span>
+        status = "Incapacitado";
+    } else {
+        status = "Ativo";
     }
-    else {
-        return <span>Ativo</span>
-    }
+
+    return (
+        <div className="status">
+            <span>{status}</span>
+        </div>
+    )
 }
