@@ -1,6 +1,8 @@
-export default function Condicoes() {
-    const valores = ["dormindo", "queimando", "congelado", "paralizado"];
-
+import "./Condicoes.css";
+type CondicoesProps = {
+    valores: Array<string>;
+}
+export default function Condicoes({valores}:CondicoesProps) {
     return (<div className="condicoes">
         {valores.map(
             v => <span key={v}>{v}</span>

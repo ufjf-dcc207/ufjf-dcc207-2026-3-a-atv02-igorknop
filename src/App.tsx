@@ -27,8 +27,10 @@ const p2: TPokemon = {
 function App() {
   return (
     <>
-      <Condicoes />
-      
+      <Condicoes valores={["congelado","dormindo"]}/>
+      <Condicoes valores={["paralizado","queimando"]}/>
+      <Condicoes valores={["queimando"]}/>
+
       {/* <Incapacitado valor={true}/>
       <Brilhante valor={true} /> */}
 

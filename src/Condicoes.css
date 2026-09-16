@@ -1,0 +1,9 @@
+.condicoes {
+    display: flex;
+    gap: 0.5em;
+    flex-wrap: wrap;
+    & > span {
+        padding: 0.2em;
+        border: 1px solid black;
+    }
+}
