@@ -1,3 +1,4 @@
+import Brilhante from "./Brilhante.tsx";
 import Disciplina from "./Disciplina.tsx"
 import Incapacitado from "./Incapacitado.tsx";
 import Pokemon from "./Pokemon.tsx";
@@ -27,6 +28,7 @@ function App() {
     <>
 
       <Incapacitado valor={true}/>
+      <Brilhante valor={true} />
 
       {/* <Pokemon pokemon={p1}/>
       <Pokemon pokemon={p2}/>
