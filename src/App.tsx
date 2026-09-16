@@ -26,7 +26,7 @@ function App() {
   return (
     <>
 
-      <Incapacitado valor={false}/>
+      <Incapacitado valor={true}/>
 
       {/* <Pokemon pokemon={p1}/>
       <Pokemon pokemon={p2}/>

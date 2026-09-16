@@ -1,12 +1,14 @@
+import type { ReactNode } from "react";
+
 type IncapacitadoProps = {
     valor: boolean;
 }
 export default function Incapacitado({ valor }: IncapacitadoProps) {
-    let status: "Incapacitado"|"Ativo";
+    let status: ReactNode;
     if (valor) {
-        status = "Incapacitado";
+        status = <span style={{color: "red"}}>Incapacitado</span>;
     } else {
-        status = "Ativo";
+        status = <span style={{color: "green"}}>Ativo</span>;
     }
 
     return (
