@@ -1,4 +1,5 @@
 import Brilhante from "./Brilhante.tsx";
+import Condicoes from "./Condicoes.tsx";
 import Disciplina from "./Disciplina.tsx"
 import Incapacitado from "./Incapacitado.tsx";
 import Pokemon from "./Pokemon.tsx";
@@ -26,9 +27,10 @@ const p2: TPokemon = {
 function App() {
   return (
     <>
-
-      <Incapacitado valor={true}/>
-      <Brilhante valor={true} />
+      <Condicoes />
+      
+      {/* <Incapacitado valor={true}/>
+      <Brilhante valor={true} /> */}
 
       {/* <Pokemon pokemon={p1}/>
       <Pokemon pokemon={p2}/>
